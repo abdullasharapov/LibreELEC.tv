@@ -2,14 +2,14 @@
 # Copyright (C) 2016-present Team LibreELEC (https://libreelec.tv)
 
 PKG_NAME="RTL8821CU"
-PKG_VERSION="0278eaa9937a7c60f2916b5d334e40dfb7870bb0"
-PKG_SHA256="5ba1950081183e24860c87aa903fc4ee532805df39c7e729c0892bcc319e211f"
+PKG_VERSION="26ac45b9fd7e8f952b0abe7cdca4244ee8e585d6"
+PKG_SHA256="1d12d4ed205b2b7bcb7226333f7e403629926e53f714410747c836efb203ad26"
 PKG_LICENSE="GPL"
-PKG_SITE="https://github.com/whitebatman2/rtl8821CU/"
-PKG_URL="https://github.com/whitebatman2/rtl8821CU/archive/$PKG_VERSION.tar.gz"
+PKG_SITE="https://github.com/brektrou/rtl8821CU/"
+PKG_URL="https://github.com/brektrou/rtl8821CU/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain linux"
 PKG_NEED_UNPACK="$LINUX_DEPENDS"
-PKG_LONGDESC="Realtek 802.11ac USB WLAN driver"
+PKG_LONGDESC="Realtek RTL8821CU driver"
 PKG_IS_KERNEL_PKG="yes"
 
 pre_make_target() {
